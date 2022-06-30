@@ -1,0 +1,52 @@
+Create table aplicativo(noaplicativo,nomeAplicativo)
+
+Insert INTO banco(noaplicativo)
+Values(not null)
+
+Insert INTO banco(nomeAplicativo)
+Values(not null)
+
+
+
+Create table versao(noaplicativo,NoVersao,DataLiberacao)
+
+Insert INTO banco(noaplicativo)
+Values(not null)
+
+Insert INTO banco(NoVersao)
+Values(not null)
+
+Insert INTO banco(DataLiberacao)
+Values(not null)
+
+
+
+Create table modulosoftware(NoModulo, NomeModulo,DataLiberacao,CodigoFonte,NoModuloPai)
+
+Insert INTO banco(NoModulo)
+Values(not null)
+
+Insert INTO banco(NomeModulo)
+Values(not null)
+
+Insert INTO banco(DataLiberacao)
+Values(not null)
+
+Insert INTO banco(CodigoFonte)
+Values(not null)
+
+Insert INTO banco(NoModuloPai)
+Values(not null)
+
+
+
+Create table configuração(Noaplicativo,NoVersao,NoModulo)
+
+Insert INTO banco(Noaplicativo)
+Values(not null)
+
+Insert INTO banco(NoVersao)
+Values(not null)
+
+Insert INTO banco(NoModulo)
+Values(not null)

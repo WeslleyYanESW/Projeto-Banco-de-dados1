@@ -1,0 +1,89 @@
+Create table banco (Codigo,nome)
+
+Insert INTO banco(Codigo)
+Values(1,4)
+
+Insert INTO banco(nome)
+Values(Banco do Brasil,CEF)
+
+Insert INTO banco *
+Value(email)
+
+
+
+Create table agencia (numero_agencia,endereço,cod_banco)
+
+Insert INTO agencia(numero_agencia)
+Values(0562,3153)
+
+Insert INTO agencia(endereço)
+Values(Rua Joaquim Texeira Alves 1555,AV. Marcelino Pires 1960)
+
+Insert INTO agencia(cod_banco)
+Values(4,1)
+
+
+
+Create table cliente (CPF,nome,sexo,endereço)
+
+Insert INTO cliente(CPF)
+Values(111.222.333-44,666.777.888-99,555.444.777-33)
+
+Insert INTO cliente(nome)
+Values(Jennifer B Souza,Caetano K Lima,Silvia Macedo)
+
+Insert INTO cliente(sexo)
+Values(F,M,F)
+
+Insert INTO cliente(endereço)
+Values(Rua Cuiabá 1050,Rua Ivinhema 879,Rua Estados Unidos 735)
+
+
+
+Create table conta (Numero_conta,saldo,tipo_conta,num_agencia)
+
+Insert INTO conta(Numero_conta)
+Values(86340-2,23584-7)
+
+Insert INTO conta(saldo)
+Values(763.05,3879.12)
+
+Insert INTO conta(tipo_conta)
+Values(2,1)
+
+Insert INTO conta(num_agencia)
+Values(3153,0562)
+
+
+
+Create table historico (CPF,Num_conta,data_inicio)
+
+Insert INTO historico((CPF)
+Values(111.222.333-44,666.777.888-99,555.444.777-33)
+
+Insert INTO historico(Num_conta)
+Values(86340-2,23584-7)
+
+Insert INTO historico(data_inicio)
+Values(17/12/1997,29/11/2010)
+
+Insert INTO historico *
+Values(observação)
+
+
+
+
+Create table Telefone_cliente (CPF_cli,telefone_cli)
+
+Insert INTO banco(CPF_cli)
+Values(111.222.333-44,666.777.888-99)
+
+Insert INTO banco(telefone_cli)
+Values((67)3422-7788,(67)3423-9900,(67)8121-8833)
+
+Insert INTO Telefone_cliente
+Values(Tipo)
+
+
+
+

@@ -1,0 +1,30 @@
+Create table aluno (nocartao,nome)
+
+Insert INTO aluno(nocartao)
+Values((not null)
+
+Insert INTO aluno(nome)
+Values(not null)
+
+
+
+Create table aula (dia,hora)
+
+Insert INTO aula(dia)
+Values((not null)
+
+Insert INTO aula(hora)
+Values((not null)
+
+
+
+Create table sala (nodopredio,nodasala)
+
+Insert INTO sala(nodopredio)
+Values((not null)
+
+Insert INTO sala(nodasala)
+Values((not null)
+
+
+
